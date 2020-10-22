@@ -1,9 +1,10 @@
 import React from 'react'
+import {Button} from '@material-ui/core'
 
 const Game = () => {
   return (
     <div>
-      Game Here
+      <Button variant="contained" color="primary">Load Graph</Button>
     </div>
   )
 }
